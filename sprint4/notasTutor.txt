@@ -1,0 +1,78 @@
+sprint 2
+-----------------------------------------------------------------------
+Let porcentajeCO = limiteCO ?  + valorCO * 100 / limiteCO : 0;
+Return x >=0 ? rangosCO [].etiqueta : 'fuera de rango'
+
+rangosCO.forEach (parametros de recorrido) => { 
+if (valor) >= rango.de && valor <= rango.hasta 
+}
+operador condicional ternario
+
+rangosCO.forEach((rango, indexRango) => {
+if (value >= rango.de && value <= rango.hasta)
+indice = indexRango;});
+
+let indice = -1
+
+_________________________________________________________________________
+sprint 3
+--------
+promesa de javaScript
+peticion API
+recibir información
+hacer funcion
+call back
+funcion asíncrona (asyn): recibe información, no recibe datos a petición
+(await): esperando como se resuelve la petición; try catch
+fetch?
+consumir recursos de otro lugar - fetch, contesta json
+preguntas: etiquetas HU2 json de API difieren con objeto sprint2
+posible solución crear 2 strings como retorno como se pide textualmente
+para que los json?, crear archivos textualmente.
+--------------------------------------------------------------------------
+async function fetchLimits() {
+  try {
+    const response = await fetch("/limits");
+    // Bloque de codigo que se ejecuta cuando la peticion se completa
+  } catch (error) {
+    console.log(error);
+  }
+}
+-------------------------------------------------------------------------
+comentarios en VsCode ctrl+k+C descomentar ctrl+k+U
+
+No es necesario el forEach.
+
+if (value >= candidate.de && value <= candidate.hasta) {
+    return "Parametro CO en rango estandar";
+  }
+return "Parametro CO fuera de rango estandar"; 
+________________________________________________________________________
+
+sprint 4
+--------
+res.status(200).json(ranges_parameters)
+ranges_para...push(newRange)
+const newRange = req.body;
+res.status(200).json(ranges_parameters)
+
+_________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

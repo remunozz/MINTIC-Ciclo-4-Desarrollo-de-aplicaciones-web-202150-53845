@@ -1,0 +1,61 @@
+sprint 2
+--------------------------------------------------------------
+Let porcentajeCO = limiteCO ?  + valorCO * 100 / limiteCO : 0;
+Return x >=0 ? rangosCO [].etiqueta : 'fuera de rango'
+
+rangosCO.forEach (parametros de recorrido) => { 
+if (valor) >= rango.de && valor <= rango.hasta 
+}
+operador condicional ternario
+
+rangosCO.forEach((rango, indexRango) => {
+if (value >= rango.de && value <= rango.hasta)
+indice = indexRango;});
+
+let indice = -1
+
+_________________________________________________________________________
+sprint 3
+promesa de javaScript
+peticion API
+recibir información
+hacer funcion
+call back
+funcion asíncrona (asyn): recibe información, no recibe datos a petición
+(await): esperando como se resuelve la petición; try catch
+fetch?
+consumir recursos de otro lugar - fetch, contesta json
+preguntas: etiquetas HU2 json de API difieren con objeto sprint2
+posible solución crear 2 strings como retorno como se pide textualmente
+para que los json?, crear archivos textualmente.
+--------------------------------
+async function fetchLimits() {
+  try {
+    const response = await fetch("/limits");
+    // Bloque de codigo que se ejecuta cuando la peticion se completa
+  } catch (error) {
+    console.log(error);
+  }
+}
+------------------------------------
+comentarios ctrl+k+C descomentar ctrl+k+U
+
+
+______________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
